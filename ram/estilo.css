@@ -1,0 +1,24 @@
+/* RAM */
+/* Repeat, auto-fill o fit, minmax */
+.parent {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    height: 100vh;
+}
+
+.uno {
+background-color: pink;
+}
+
+.dos {
+background-color: purple;
+}
+
+.tres {
+background-color: aqua;
+}
+
+.cuatro {
+background-color: greenyellow;
+}
