@@ -1,0 +1,40 @@
+.parent {
+    height: auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.visual {
+    height: 100px;
+    width: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+}
+ h3 {
+    margin: 0;
+ }
+
+ .card {
+    background-color: yellow;
+ }
+
+ .visualpink{
+    background-color: thistle;
+    height: 100px;
+ }
+
+ .visualblue{
+    background-color: turquoise;
+    height: 100px;
+ }
+
+ .visualgreen {
+    background-color: rgb(8, 228, 0);
+    height: 100px;
+ }
